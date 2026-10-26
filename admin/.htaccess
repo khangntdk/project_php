@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(admin-functions|admin-header|admin-footer|product-form)\.php$">
+    Require all denied
+</FilesMatch>
